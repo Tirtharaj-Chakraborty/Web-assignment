@@ -1,0 +1,240 @@
+/*###################################       NAV BAR           ##################################*/
+
+.navbar-dark{
+    background-color: #343a40;
+}
+
+
+.container.navbar{
+/*    margin:0px 50px;*/
+}
+
+.dropbtn {
+  background-color: #343a40;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn.contact{
+    padding-right: 35px;
+}
+
+.nav-link{
+    padding: 0px;
+    color: inherit;
+}
+
+.navbar-text.login{
+    padding-right: 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#343a40;}
+
+.form-control.searchTab{
+    width: 400px;
+}
+
+/*##########################      LOGIN MODAL       ############################*/
+
+.img-fluid{
+    display: block;
+    margin: auto;
+}
+
+.modalFormWrapper{
+    width: 100%;
+    padding: 2rem;
+}
+
+button.submitBtn{
+    display: block;
+    margin: auto;
+}
+
+/*#############  SECTION LIGHT  1  ##########*/
+.jumbotron{
+    text-align: center;
+    background: none;
+    padding-top: 100px;
+}
+.sectionLight{
+    background-color:#eceeef;
+    padding: 2em;
+}
+
+#colPos{
+    display: block;
+    margin: auto;
+}
+
+/*TESTING*/
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+/*####################   MID SECTION          #######################*/
+.container-fluid .midSection{
+    padding-top: 25px;
+}
+
+/*####################  LEFT LIST      #########################*/
+.container-fluid .midSection .leftSide{
+   padding-top: 15px;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#fa7590; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.container-fluid .row .leftSide{
+   background-color: #e6e1e2;
+}
+
+/*################## RIGHT SIDE  ############*/
+
+.container-fluid .row .rightSide{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+.container-fluid .row .rightSide .ab{
+    width: 989x;
+    margin: 15px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ab .box{
+    position: relative;
+    width: 295px;
+    height: 300px;
+    background: #ff0;
+    margin: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.ab .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.ab .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.ab .box:hover .imgBox img{
+    transform: scale(1.2);
+}
+
+.ab .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.ab .box:hover .details{
+     transform: scaleY(1);
+}
+
+
+.ab .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+    color: #fff;
+}
+
+.ab .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+}
+
+.ab .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.ab .box .details .content button{
+    margin: 15px 10px 5px;
+}
+
+a.links{
+    color: white;
+}
+
+/*########## FOOTER  #########*/
+.footer{
+    background-color:#e6e1e2;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.container-fluid .row .footerLinks{
+    padding-left: 70px;
+}
+
+.container-fluid .row .map{
+    padding-left: 70px;
+}
+
+
+

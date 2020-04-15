@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="util/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="util/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="util/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="javaScript/script.js"></script>
+    
+    <title>Original assignment</title>
+</head>
+
+<body>
+    
+<!--    ######################################      NAV BAR         ############################-->
+    
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container-fluid navbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <a class="navbar-brand mr-auto" href="index.html"><img src="img/logo.png" height="30" width="41"></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <div class="dropbtn">
+                                  <a class="nav-link" href="index.html">
+                                      <span class="fa fa-home fa-lg"></span>Home</a>
+                            </div>  
+                           
+                        </li>
+                        
+                        
+                        <li class="nav-item">
+                            <div class="dropdown">
+                              <div class="dropbtn">
+                            <a class="nav-link" href="aboutus.html">
+                                <span class="fa fa-info fa-lg"></span> About <span class="fa fa-caret-down"></span>
+                             </a></div>  
+                               <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                                </div> 
+                            </div>
+            
+                        </li>
+                        
+                        
+                        <li class="nav-item">
+                            <div class="dropdown">
+                              <div class="dropbtn">
+                            <a class="nav-link" href="#">
+                                <span class="fa fa-list fa-lg"></span> Menu <span class="fa fa-caret-down"></span>
+                               </a></div>  
+                               <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                                </div> 
+                            </div>
+                        </li>
+                        
+                        
+                        <li class="nav-item">
+                            <div class="dropbtn contact">
+                            <a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                                </div>
+                        </li>
+                        
+                        
+                    <form class="form-inline">
+                            <input class="form-control searchTab mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                        
+                    </ul>
+                    
+                    
+                    <span class="navbar-text login">
+                        <a data-toggle="modal" data-target="#loginModal">
+                            <span class="fa fa-sign-in"></span> Login</a>
+                    </span>
+                    
+                    <span class="navbar-text">
+                        <a data-toggle="modal" data-target="#signupModal">
+                            <span class="fa fa-user-plus"></span> Signup</a>
+                    </span>
+                    
+                </div>
+                
+            </div>
+        </nav>
+    
+    
+<!--    ################################     LOGIN MODAL       #########################-->
+    
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login potral</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-sm-12">
+                          <img class="img-fluid" src="img/lk%20280x187.png">    
+                          </div>  
+                      </div> 
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <div class="modalFormWrapper">
+                               <form onsubmit="return validate()" action="message.html">
+                                  <div class="form-group">
+                                    <label for="formName">What's your E-mail?</label>
+                                    <input type="text" class="form-control" id="uname" placeholder="E-mail">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="formEmail">Enter your password</label>
+                                    <input type="text" class="form-control" id="pass" placeholder="Password">
+                                  </div>
+                                   <div class="form-group submitBtn">
+                                        <button  class="btn btn-success submitBtn" type="submit">Submit</button>
+                                   </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+
+     <!--    #############  SECTION LIGHT 1  #############  -->
+      <div class="sectionLight">
+        <div class="row">
+          <div class="col-sm-12">
+          <!-- ####################  JUMBOTRON TEXT  ##################-->
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Welcome to our Website!</h1>
+                <p class="lead">This is made by Tirtharaj Chakraborty.Currently he is in IT 1st year.His hobbies are coding,and gathering knowledge related to financial and marketing stuffs.</p>
+              </div>
+            </div>
+                <!--  ################   JUMBOTRON TEXT END  ###########   -->
+          </div>
+        </div>
+               <!--  ##############  CAROUSEL SLIDE    ###############  -->
+          <div class="row">
+              <div id="colPos" class="col-sm-12 col-md-6">
+                <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselControls" data-slide-to="1"></li>
+                        <li data-target="#carouselControls" data-slide-to="2"></li>
+                      </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="img/boy.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Slide-1</h5>
+                                            <p>456789</p>
+                                          </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/skate%20wall.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Slide-2</h5>
+                                            <p>456789</p>
+                                          </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="img/skate.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Slide-3</h5>
+                                            <p>456789</p>
+                                          </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            
+          </div>
+          
+      </div>
+    
+<!--    ############ TESTING  ###########-->
+    
+    <div class="container-fluid">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
+                <h3>Where does it come from?</h3>
+            </div>
+            <div class="col col-sm col-md">
+                <h2>There are many variations of passages of Lorem Ipsum available</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+            </div>
+        </div>
+    </div>
+<!--    ######################   SECTION 2    #####################-->
+    
+    <div class="container-fluid">
+        <div class="row row-content align-items-center midSection">
+                <!--            ##########   LEFTSIDE     #############-->
+            <div class="col-12 col-sm-4 col-md-3 leftSide">
+                <h3>Electronics</h3>
+                <ul style="list-style-type:none;">
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                     <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a class="leftLink" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                </ul>
+                <h3>Consumer care</h3>
+                <ul style="list-style-type:none;">
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                     <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                </ul>
+                <h3>Health</h3>
+                <ul style="list-style-type:none;">
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                     <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                </ul>
+                 <h3>Electronics</h3>
+                <ul style="list-style-type:none;">
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                     <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">a</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">b</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">c</a></li>
+                    <li><a href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">d</a></li>
+                </ul>
+            </div>
+<!--            ############# RIGHT SIDE   ###########-->
+            <div class="col col-sm col-md rightSide">
+               <div class="container-fluid ab">
+                    <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                              
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>  
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                    </div>
+                   
+                   <div class="box">
+                        <div class="imgBox">
+                            <img src="img/bari%20123.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>What is Lorem Ipsum?</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+                         
+                                <button type="button" class="btn btn-success"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Like</a></button>
+                                
+                                <button type="button" class="btn btn-danger"><a class="links" href="https://www.google.com/search?q=hotstar&oq=hot&aqs=chrome.1.69i57j0l6j46.3233j0j7&sourceid=chrome&ie=UTF-8">Dislike</a></button>
+                             
+                            </div>
+                        </div>
+                      
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--    ####################  FEEDBACK FORM   ##################-->
+    
+    <div class="container">
+
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Send us your Feedback</h3>
+           </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="text" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="text" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                                <input type="text" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                        <div class="form-group row">
+                            <div class="col-md-6 offset-md-2">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                    <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 offset-md-1">
+                                <select class="form-control">
+                                    <option>Tel.</option>
+                                    <option>Email</option>
+                                </select>
+                            </div>
+                        </div>
+                         <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label">Your Fedback</label>
+                            <div class="col-md-10">
+                                <textarea type="text" class="form-control" id="feedback" name="feedback" rows="12" placeholder="Write your feedback here"></textarea>
+                            </div>
+                        </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+             </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+    
+<!--    ################## FOOTER    ############-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">             
+                <div class="col-4 col-sm-2 footerLinks">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-2">
+                    <h5>Our Address</h5>
+                    <address>
+		              125 S.K. Chatterjee Lane 
+                        Belur,Howrah<br>
+                      <i class="fa fa-phone fa-lg"></i>: +91 1234567890<br>
+                      <i class="fa fa-fax fa-lg"></i>: +91 987543210<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:confusion@food.net">modonGo@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-5 map">
+                    <h5>Our Location</h5>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14691.701258207151!2d88.4505915!3d22.9897737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4ff398845c27ef0!2sAPC%20Roy%20Hall!5e0!3m2!1sen!2sin!4v1586708180981!5m2!1sen!2sin" width="270" height="230" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Tirtharaj Chakraborty-Web Project</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    
+    
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="util/jquery/dist/jquery.slim.min.js"></script>
+    <script src="util/popper.js/dist/umd/popper.min.js"></script>
+    <script src="util/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
